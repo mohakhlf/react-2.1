@@ -10,31 +10,27 @@ Created with CodeSandbox
 
 #### Sampe code of api usage
 ```ts
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React from "react";
+import data from './data.json'
+import Contact from "./Contact/Contact";
+import "./styles.css";
 
-const BASE_URL = 'https://dummyapi.io/data/api';
-const APP_ID = '{APP_ID}';
+const contact = data.map( (item) =>
+    <Contact
+        key={item.id}
+        first={item.firstname}
+        last={item.lastname}
+        image={item.image}
+        online={Math.random() >= 0.5}
+    />
+)
 
-const App = () => {
-    const [loading, setLoading] = useState(false);
-    const [data, setData] = useState(null);
+export default function App() {
 
-    useEffect(() => {
-        setLoading(true);
-        axios.get(`${BASE_URL}/user`, { headers: { 'app-id': APP_ID } })
-            .then(({ data }) => setData(data))
-            .catch(console.error)
-            .finally(() => setLoading(false));
-    }, []);
 
-    return (
-        <div>
-           {loading && "Loading..."}
-           {JSON.stringify(data)}
-        </div>
-    );
-};
-
-export { App };
+  return (
+    <div className="App">
+        {contact}
+    </div>
+  );
 ```
