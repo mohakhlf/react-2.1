@@ -1,7 +1,7 @@
 # react-2.1
 Created with CodeSandbox
 
-### To get fack data, click here:
+### To get fack data, click &darr;:
 
 [![dummyapi](https://dummyapi.io/images/icon.png)](https://dummyapi.io/data/api)
 
