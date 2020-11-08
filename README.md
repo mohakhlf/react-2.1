@@ -3,7 +3,7 @@ Created with CodeSandbox
 
 ### To get fack data, click &darr;
 
-[![fake data](https://mockaroo.com/)
+[![fack data](hhttps://mockaroo.com/assets/kangaroo-white-3a977872f8f57d25e13c772e9ae8756b0d1aa9a19fc49b1e4eb25ac8dc14c39a.svg)](https://mockaroo.com/)
 
 #### Sampe code of api usage
 ```ts
