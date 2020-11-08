@@ -3,10 +3,7 @@ Created with CodeSandbox
 
 ### To get fack data, click &darr;
 
-[![dummyapi](https://dummyapi.io/images/icon.png)](https://dummyapi.io/data/api)
-
-
-  > get your ***app-id***
+[![fake data](https://mockaroo.com/)
 
 #### Sampe code of api usage
 ```ts
