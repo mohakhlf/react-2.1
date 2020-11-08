@@ -1,7 +1,7 @@
 # react-2.1
 Created with CodeSandbox
 
-### To get fack data, click <a href="https://dummyapi.io/data/api" target="_blank">here</a>:
+### To get fack data, click <a href="https://dummyapi.io/" target="_blank">here</a>:
 
 
   > get your ***app-id***
